@@ -1,3 +1,14 @@
+/*
+Roboto-font
+font-weight: 400,500
+regular-normal, medium
+Roboto Condensed::
+700
+bold
+*/
+ *{
+  font-family: "Roboto" , sans-serif;
+ }
 .site-header {
   background-color: white;
 }
@@ -21,4 +32,28 @@
 }
 .hero-content {
   width: 390px;
+  color: white;
+}
+.orange-line {
+background-color: #ff7500;
+width: 80px;
+height: 3px;
+}
+.hero-title {
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.hero-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
 }
